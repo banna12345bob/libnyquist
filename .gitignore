@@ -45,3 +45,9 @@ DerivedData
 *.opendb
 
 encoded.wav
+
+
+*.vcxproj
+*.filters
+bin-int/
+bin/
