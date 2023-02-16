@@ -257,8 +257,8 @@ if(LIBNYQUIST_BUILD_EXAMPLE)
         ${LIBNYQUIST_ROOT}/examples/src/AudioDevice.cpp
         ${LIBNYQUIST_ROOT}/examples/src/AudioDevice.h
         ${LIBNYQUIST_ROOT}/examples/src/RingBuffer.h
-        ${LIBNYQUIST_ROOT}/third_party/rtaudio/RtAudio.cpp
-        ${LIBNYQUIST_ROOT}/third_party/rtaudio/RtAudio.h
+        ${LIBNYQUIST_ROOT}/third_party/rtaudio/rtaudio/RtAudio.cpp
+        ${LIBNYQUIST_ROOT}/third_party/rtaudio/rtaudio/RtAudio.h
     )
 
     add_executable(${NQR_EXAMPLE_APP_NAME} ${EXAMPLE_SOURCES})

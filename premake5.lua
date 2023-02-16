@@ -1,4 +1,4 @@
-project "lubnyquist"
+project "libnyquist"
 	kind "StaticLib"
 	language "C++"
     staticruntime "on"
@@ -10,6 +10,7 @@ project "lubnyquist"
 	{
 		"src/*.c",
 		"src/*.cpp",
+		"include/libnyquist/*.h",
 	}
 
 	includedirs
@@ -28,7 +29,8 @@ project "lubnyquist"
 		"third_party/opus/silk",
 		"third_party/opus/opusfile/src/include",
 		"third_party/opus/opusfile/include",
-		"third_party/wavpack/include"
+		"third_party/wavpack/include",
+		"third_party/rtaudio/rtaudio"
 	}
 
 	filter "system:windows"
