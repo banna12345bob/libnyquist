@@ -15,18 +15,15 @@ project "rtAudio"
 	filter "system:windows"
 		defines "__WINDOWS_WASAPI__"
 		systemversion "latest"
-		cppdialect "C++11"
 
 	filter "system:macosx"
 		defines "__MACOSX_CORE__"
 		systemversion "latest"
-		cppdialect "C++11"
 
 	filter "system:linux"
 		defines "__LINUX_PULSE__"
 		pic "On"
 		systemversion "latest"
-		cppdialect "C++11"
 
 	filter "configurations:Debug"
 		runtime "Debug"

@@ -20,6 +20,7 @@ project "libnyquist"
 		"third_party/FLAC/src/include",
 		"third_party/libogg/include",
 		"third_party/libvorbis",
+        "third_party/libvorbis/src",
 		"third_party/musepack/include",
 		"third_party/opus",
 		"third_party/opus/libopus/include",
@@ -41,6 +42,12 @@ project "libnyquist"
 		pic "On"
 		systemversion "latest"
 		cppdialect "C++11"
+
+    filter "system:macosx"
+        pic "On"
+        systemversion "latest"
+        cppdialect "C++11"
+
 
 	filter "configurations:Debug"
 		runtime "Debug"
