@@ -47,6 +47,7 @@ project "libnyquist"
         pic "On"
         systemversion "latest"
         cppdialect "C++11"
+        xcodebuildsettings { ["ALWAYS_SEARCH_USER_PATHS"] = "YES" }
 
 
 	filter "configurations:Debug"
