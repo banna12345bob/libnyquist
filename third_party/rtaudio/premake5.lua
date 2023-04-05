@@ -17,8 +17,9 @@ project "rtAudio"
 		systemversion "latest"
 
 	filter "system:macosx"
+        systemversion "latest"
+        pic "On"
 		defines "__MACOSX_CORE__"
-		systemversion "latest"
 
 	filter "system:linux"
 		defines "__LINUX_PULSE__"
