@@ -36,12 +36,12 @@ project "libnyquist"
 
 	filter "system:windows"
 		systemversion "latest"
-		cppdialect "C++11"
+		cppdialect "C++17"
 
 	filter "system:linux"
 		pic "On"
 		systemversion "latest"
-		cppdialect "C++11"
+		cppdialect "C++17"
 
     filter "system:macosx"
         pic "On"
