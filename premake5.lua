@@ -15,23 +15,24 @@ project "libnyquist"
 
 	includedirs
 	{
-		"include/libnyquist",
-		"third_party",
-		"third_party/FLAC/src/include",
-		"third_party/libogg/include",
-		"third_party/libvorbis",
-        "third_party/libvorbis/src",
-		"third_party/musepack/include",
-		"third_party/opus",
-		"third_party/opus/libopus/include",
-		"third_party/opus/celt",
-		"third_party/libvorbis/include",
-		"third_party/opus/silk/float",
-		"third_party/opus/silk",
-		"third_party/opus/opusfile/src/include",
-		"third_party/opus/opusfile/include",
-		"third_party/wavpack/include",
-		"third_party/rtaudio/rtaudio"
+		"include/libnyquist/**",
+		"third_party/**",
+        "third_party",
+		--"third_party/FLAC/src/include/**",
+		--"third_party/libogg/include/**",
+		--"third_party/libvorbis/**",
+        --"third_party/libvorbis/src/**",
+		--"third_party/musepack/include/**",
+		--"third_party/opus/**",
+		--"third_party/opus/libopus/include/**",
+		--"third_party/opus/celt/**",
+		--"third_party/libvorbis/include/**",
+		--"third_party/opus/silk/float/**",
+		--"third_party/opus/silk/**",
+		--"third_party/opus/opusfile/src/include/**",
+		--"third_party/opus/opusfile/include/**",
+		--"third_party/wavpack/include/**",
+		--"third_party/rtaudio/rtaudio/**"
 	}
 
 	filter "system:windows"
